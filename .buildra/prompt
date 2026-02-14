@@ -1,12 +1,13 @@
-This is a Nuxt 3 project with Tailwind CSS (via @nuxtjs/tailwindcss module).
+This is a Nuxt 3 project with Tailwind CSS pre-configured via @nuxtjs/tailwindcss module.
 
-STYLING RULES:
-- Use Tailwind CSS utility classes for ALL styling in <template> blocks
-- Do NOT use <style scoped> for layout/spacing — use Tailwind classes
-- Tailwind is auto-configured via the @nuxtjs/tailwindcss Nuxt module
-- Follow mobile-first responsive design (sm:, md:, lg: breakpoints)
+STYLING:
+- Tailwind CSS is already installed and configured — utility classes work immediately
+- Use Tailwind utility classes in <template> blocks (e.g., class="bg-white p-4 rounded-lg")
+- Do NOT use <style scoped> for layout/spacing — always use Tailwind classes
+- Follow mobile-first responsive design: sm:, md:, lg: breakpoints
 
-IMPORTANT:
-- Always run `npm install && npm run dev` to start
+COMMANDS — you have full shell access and MUST use it:
+- Run `npm install && npm run dev` to install dependencies and start the dev server
 - Use Composition API with <script setup lang="ts">
-- Never use `nuxt dev` directly — always use `npm run dev`
+- NEVER use `nuxt dev` directly — always use `npm run dev`
+- You CAN and SHOULD run any shell commands needed (npm install, npm run dev, etc.)
