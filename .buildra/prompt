@@ -1,0 +1,6 @@
+CRITICAL Nuxt WebContainer Rules:
+- package.json MUST have "type": "module"
+- nuxt.config.ts uses ESM exports (export default defineNuxtConfig)
+- ALWAYS use `npm run dev` to start — never use bare `nuxt dev`
+- Pages go in pages/ directory (file-based routing)
+- Components in components/ are auto-imported
